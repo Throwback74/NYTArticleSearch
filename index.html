@@ -1,3 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+
 var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q= + trump + &fq=source:("The New York Times")
 
 
@@ -30,3 +46,6 @@ $.ajax({
     });
     var results = response.data;
   <!-- once in the function change the begin_date & end_date into full dates using year + 0101 -->
+  </script>
+</body>
+</html>
